@@ -1,0 +1,73 @@
+* {
+    font-family: 'JetBrains mono';
+    text-align: center;
+    font-size: 14px;
+}
+
+#me {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-sizing: border-box;
+}
+
+#calcBody {
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #484848;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    box-shadow: 0px 5px 15px #121212;
+}
+
+#result {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #121212;
+    background-color: #363636;
+    height: 35px;
+    text-align: right;
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}
+
+.button {
+    color: #D6D6D6;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #363636;
+}
+
+.button:active {
+    background-color: #606060;
+}
+
+.operatorButton {
+    color: orange;
+}
+
+.verticalExpandButton {
+    height: 104px;
+}
+
+.horizontalExpandButton {
+    width: 104px;
+}
